@@ -1,3 +1,4 @@
+#So I should be able to make comments and keep track of the versions after I marge and accept the changes
 from serial import Serial
 from time import sleep
 import matplotlib.pyplot as plt
