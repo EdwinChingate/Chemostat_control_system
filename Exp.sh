@@ -1,4 +1,4 @@
-echo Which reactor do you wanna start? #t
+echo Which reactor do you wanna start? #test
 echo Blue: 0
 echo Black: 1
 echo Purple: 2
