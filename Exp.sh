@@ -1,35 +1,26 @@
 echo Which reactor do you wanna start?
-echo 1
-echo 2
-echo 3
-echo 4
-echo 5
-echo 6
-echo 7
-echo 8
-echo 9
-echo 10
+echo Blue: 0
+echo Black: 1
+echo Purple: 2
+echo Green: 3
+echo Orange: 4
+echo Red: 5
 read reactor
 while true
 echo yes
-#This is a test on the GitHub space by itself
 do
-if [ "$reactor" -gt "0" ] && [ "$reactor" -lt "11" ]
+if [ "$reactor" -gt "-1" ] && [ "$reactor" -lt "6" ]
 then 
 clear
 break
 else
 echo Which reactor do you wanna start?
-echo 1
-echo 2
-echo 3
-echo 4
-echo 5
-echo 6
-echo 7
-echo 8
-echo 9
-echo 10
+echo Blue: 0
+echo Black: 1
+echo Purple: 2
+echo Green: 3
+echo Orange: 4
+echo Red: 5
 read reactor
 fi
 sleep 5
