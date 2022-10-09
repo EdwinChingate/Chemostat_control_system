@@ -12,6 +12,7 @@ echo 10
 read reactor
 while true
 echo yes
+#This is a test on the GitHub space by itself
 do
 if [ "$reactor" -gt "0" ] && [ "$reactor" -lt "11" ]
 then 
