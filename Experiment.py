@@ -1,4 +1,4 @@
-from serial import Serial #t
+from serial import Serial
 import binascii
 import time
 from PyTrinamic.connections.ConnectionManager import ConnectionManager
