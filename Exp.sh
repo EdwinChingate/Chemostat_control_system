@@ -1,4 +1,5 @@
 echo Which reactor do you wanna start?
+#Approve
 echo Blue: 0
 echo Black: 1
 echo Purple: 2
