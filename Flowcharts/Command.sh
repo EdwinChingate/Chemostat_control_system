@@ -1,0 +1,1 @@
+gimp -i -b '(let* ((image (car (gimp-file-load RUN-NONINTERACTIVE "Images/Connect.svg" "Images/Connect.svg" )))(drawable (car (gimp-image-active-drawable image))))(gimp-invert drawable)(file-png-save RUN-NONINTERACTIVE image drawable  "Images/Connect.svg" "Images/Connect.svg" 0 0 0 0 0 1 1)(gimp-quit 0))'
